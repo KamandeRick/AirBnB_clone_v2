@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Start Flask web application"""
+"""Start Flask web app"""
 
 from flask import Flask
 
@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/', strict_slashes=False)
 def hello_hbnb():
     """
-    Routing to root, strict_slashes ensure
+    Roue tto root, strict_slashes ensure
     the URL works when it ends both with or without the /
     """
     return "Hello HBNB!"
